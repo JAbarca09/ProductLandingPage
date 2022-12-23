@@ -4,6 +4,7 @@ Page to follow: https://product-landing-page.freecodecamp.rocks/
 2. You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
 3. Within the #header element, you can see a nav element with a corresponding id="nav-bar"
 4. You can see at least three clickable elements inside the nav element, each with the class nav-link
+
 5. When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page
 6. You can watch an embedded product video with id="video"
 7. Your landing page has a form element with a corresponding id="form"
@@ -19,14 +20,35 @@ Page to follow: https://product-landing-page.freecodecamp.rocks/
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Product Landing Page</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+  </head>
+
+  <body>
+    <nav id="nav-bar">
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="Original Trombones"
+        />
+      </header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Features">Features</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#HowItWorks">How It Works</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Pricing">Pricing</a>
+        </li>
+      </ul>
+    </nav>
+    <main></main>
+  </body>
 </html>

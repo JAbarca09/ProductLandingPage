@@ -1,3 +1,14 @@
 body {
     background-color: #eee;
 }
+
+#header-img {
+    width: 300px;
+    height: 100%;
+}
+
+#nav-bar {
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+}
