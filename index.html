@@ -20,35 +20,38 @@ Page to follow: https://product-landing-page.freecodecamp.rocks/
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Product Landing Page</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <nav id="nav-bar">
-      <header id="header">
-        <img
-          id="header-img"
-          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-          alt="Original Trombones"
-        />
-      </header>
-      <ul id="nav-list">
-        <li class="nav-list-item">
-          <a class="nav-link" href="#Features">Features</a>
-        </li>
-        <li class="nav-list-item">
-          <a class="nav-link" href="#HowItWorks">How It Works</a>
-        </li>
-        <li class="nav-list-item">
-          <a class="nav-link" href="#Pricing">Pricing</a>
-        </li>
-      </ul>
+        <header id="header">
+            <img id="header-img"
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                alt="Original Trombones" />
+        </header>
+        <ul id="nav-list">
+            <li class="nav-list-item">
+                <a class="nav-link" href="#Features">Features</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-link" href="#HowItWorks">How It Works</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-link" href="#Pricing">Pricing</a>
+            </li>
+        </ul>
     </nav>
     <section id="first-section">
         <h2>Handcrafted, home-made masterpieces</h2>
@@ -57,5 +60,42 @@ Page to follow: https://product-landing-page.freecodecamp.rocks/
             <input type="submit" id="submit" value="Get Started" class="btn">
         </form>
     </section>
-  </body>
+    <section id="Features">
+        <div class="feature-section">
+            <i class="fa fa-3x fa-fire icon"></i>
+            <div class="feature-text">
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+                    your purchase.
+                </p>
+            </div>
+        </div>
+        <div class="feature-section">
+            <i class="fa fa-3x fa-truck icon"></i>
+            <div class="feature-text">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                    returns if you are not satisfied.
+                </p>
+            </div>
+        </div>
+        <div class="feature-section">
+            <i class="fa fa-3x fa-battery-full icon"></i>
+            <div class="feature-text">
+                <h2>Quality Assurance</h2>
+                <p>
+                    For every purchase you make, we will ensure there are no damages or faults and we will check and
+                    test the pitch of your instrument.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="HowItWorks">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+</body>
+
 </html>
