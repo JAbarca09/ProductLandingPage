@@ -206,7 +206,8 @@ form {
     #nav-bar {
         left: 0;
         width: 100%;
-        display: inherit;
+        display: flex;
+        flex-direction: column;
     }
 
     #nav-list {
@@ -220,6 +221,7 @@ form {
     #header-img {
         width: 300px;
         height: 100%;
+        padding-left: 0;
     }
 
     #first-section {
