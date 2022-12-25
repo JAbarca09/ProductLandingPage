@@ -104,3 +104,55 @@ form {
     justify-content: center;
     margin-top: 50px;
 }
+
+#Pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+/* Cards styling */
+.card {
+    border: 1px solid black;
+    width: 300px;
+}
+
+.card-title {
+    background-color: #DDDDDD;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+}
+
+.card-body {
+   text-align: center;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.select-btn {
+    background-color: #f1c40f;
+    font-weight: 400;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 1em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.card:first-of-type {
+    margin-right: 15px;
+}
+
+.card:last-of-type {
+    margin-left: 15px;
+}
