@@ -204,8 +204,9 @@ form {
     }
 
     #nav-bar {
-        display: inherit;
+        left: 0;
         width: 100%;
+        display: inherit;
     }
 
     #nav-list {
@@ -218,8 +219,7 @@ form {
 
     #header-img {
         width: 300px;
-        height: auto;
-        padding: 0;
+        height: 100%;
     }
 
     #first-section {
